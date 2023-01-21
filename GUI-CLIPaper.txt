@@ -1,0 +1,11 @@
+Both the Graphical User Interface (GUI), and Command Line Interface (CLI) are integral for a user to efficiently use and navigate a computer system. 
+Both interfaces give users access to the devices directory to access and navigate around different files within the system.
+While both complete essentially the same function, they each fit with different uses and scenarios.
+The GUI is the typical interface that most users will only ever see nowadays. 
+It presents information in a way that makes the most sense to human eyes, using colors and patterns to easily communicate relationships.
+There are many different options for GUIs, from many different providers such as Windows, Mac, and Linux distros.
+However, using a GUI can be an inefficient use of resources, depending on the purpose of that device.
+This is where CLIs can be useful. They allow users who know how to correctly communicate to the computer to navigate through text-only commands.
+Mostly any function that can be performed in a GUI can also be performed in a CLI if the user knows the command.
+There are a couple different CLIs to interact with the different systems. 
+Windows has Powershell, Linux has the Terminal app, and I don't know what Mac uses because it I don't like apple.
