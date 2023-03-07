@@ -1,0 +1,16 @@
+﻿ body {
+            background-color: antiquewhite;
+            text-align: center
+        }
+ li{
+     text-align:center;
+ }
+u {
+            text-decoration-style:wavy  ;
+           color: cornflowerblue
+        }
+ ol {
+            list-style-type: circle;
+            color: brown;
+            text-align:center;
+        }
