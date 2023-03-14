@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="mainstyle.css">
+    <script>
+
+        function checkboxes()
+        {
+            var firstName = document.getElementById("fName").value;
+            if (firstName == "")
+            {
+                document.getElementById("fName").value = "First Name Required";
+                document.getElementById("fName").style.backgroundColor = "red";
+                document.getElementById("fName").focus();
+            }
+            var lastName = document.getElementById("lName").value;
+            if (firstName == "") {
+                document.getElementById("lName").value = "Last Name Required";
+                document.getElementById("lName").style.backgroundColor = "red";
+                document.getElementById("lName").focus();
+            }
+            var email = document.getElementById("email").value;
+            if (firstName == "") {
+                document.getElementById("email").value = "Email Required";
+                document.getElementById("email").style.backgroundColor = "red";
+                document.getElementById("email").focus();
+            }
+            var yes = document.getElementById("yes");
+
+            if ('yes:checked' == false) {
+                window.alert("Must agree to the Terms");
+            }
+        }
+    </script>
+</head>
+<body>
+  
+    <ul>
+        <li><a href="Homepage.html" style="text-decoration:none" target="_new">Homepage</a></li>
+        <li><a href="BeeMoviePage.html" style="text-decoration:none" target="_new">Heartwarming Short Story</a></li>
+        <li><a href="ContactUs.html" style="text-decoration:none" target="_new">Contact Us</a></li>
+    </ul>
+    <form>
+        First Name: <input type="text" id="fName"><br>
+        Last Name: <input type="text" id="lName"><br>
+        Email: <input type="text" id="email"><br>
+        <h2>Accept Terms & Conditions</h2>
+        <input type="checkbox" name="accept" value="yes">Yes<br>
+        <button id="mySubmit" type="button" class="btn btn-info" onclick='checkboxes();'>Submit</button>
+    </form>
+</body>
+</html>
